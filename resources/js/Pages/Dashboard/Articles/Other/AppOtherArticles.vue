@@ -92,8 +92,8 @@
 </template>
 
 <script>
-import AppLayout from '@/Layouts/AppLayout'
-import BreadCrumbs from "@/components/BreadCrumbs";
+import AppLayout from '@/Layouts/AppLayout.vue'
+import BreadCrumbs from "@/components/BreadCrumbs.vue";
 import AddOtherArticle from "./AddOtherArticle.vue";
 // var loadingTask = pdf.createLoadingTask('/pdfs/Resolucion 29452 de 2017.pdf');
 export default {

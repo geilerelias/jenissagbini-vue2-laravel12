@@ -79,8 +79,8 @@
 import moment from "moment";
 import format from "date-fns/format";
 
-import AppLayout from '@/Layouts/AppLayout'
-import BreadCrumbs from "@/components/BreadCrumbs";
+import AppLayout from '@/Layouts/AppLayout.vue'
+import BreadCrumbs from "@/components/BreadCrumbs.vue";
 
 moment.locale("es");
 

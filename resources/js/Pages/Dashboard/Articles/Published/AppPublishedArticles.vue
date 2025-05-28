@@ -259,8 +259,8 @@
 </template>
 
 <script>
-import AppLayout from '@/Layouts/AppLayout'
-import BreadCrumbs from "@/components/BreadCrumbs";
+import AppLayout from '@/Layouts/AppLayout.vue'
+import BreadCrumbs from "@/components/BreadCrumbs.vue";
 
 
 export default {

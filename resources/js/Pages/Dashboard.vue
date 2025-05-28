@@ -256,7 +256,7 @@
                                                         class="d-flex align-center"
                                                     >
                                                         <img
-                                                            src="/images/logo.png"
+                                                            :src="imgLogo"
                                                             alt="user"
                                                             width="45"
                                                             class="rounded-circle"
@@ -314,7 +314,7 @@
                     <div class="mb-7 v-card v-card--flat v-sheet theme--light">
                         <div class="v-card__text pa-0">
                             <img
-                                src="/images/quien-soy.jpg"
+                                :src="imgQuienSoy"
                                 height="100"
                                 class="img-fluid rounded-top bt4 w-100 profile-bg-height"
                             />
@@ -381,7 +381,8 @@
 <script>
 import AppLayout from "@/Layouts/AppLayout.vue";
 import BreadCrumbs from "@/components/BreadCrumbs.vue";
-
+import imgQuienSoy from "@/../img/quien-soy.jpg" 
+import imgLogo from "@/../img/logo.png";
 export default {
     components: {
         AppLayout,

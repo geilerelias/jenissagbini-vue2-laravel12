@@ -94,13 +94,15 @@
 </template>
 
 <script>
-import AppLayout from '@/Layouts/AppLayout'
-import BreadCrumbs from "@/components/BreadCrumbs";
+import AppLayout from '@/Layouts/AppLayout.vue'
+import BreadCrumbs from "@/components/BreadCrumbs.vue";
+import { Link } from "@inertiajs/inertia-vue";
 
 export default {
     components: {
         AppLayout,
         BreadCrumbs,
+        InertiaLink: Link,
     },
     data() {
         return {
