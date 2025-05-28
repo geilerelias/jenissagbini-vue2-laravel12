@@ -1,0 +1,1 @@
+import{n as t}from"./_plugin-vue2_normalizer-p4i_2SC9.js";const e={};var a=function(){var n=this,r=n._self._c;return r("v-app",[r("v-container",{attrs:{fluid:""}},[r("transition",{attrs:{name:"scroll-x-transition"}},[r("router-view")],1)],1)],1)},o=[],s=t(e,a,o,!1,null,"7801d4c8");const i=s.exports;export{i as default};

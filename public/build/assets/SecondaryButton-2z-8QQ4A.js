@@ -1,0 +1,1 @@
+import{n as e}from"./_plugin-vue2_normalizer-p4i_2SC9.js";const r={props:{type:{type:String,default:"button"}}};var o=function(){var t=this,n=t._self._c;return n("v-btn",{attrs:{type:t.type}},[t._t("default")],2)},s=[],_=e(r,o,s,!1,null,null);const p=_.exports;export{p as J};
